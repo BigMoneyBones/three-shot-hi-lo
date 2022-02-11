@@ -15,7 +15,7 @@ let count = 1;
 
 
 
-while (count <= 5) {
+while (count <= 2) {
 
     if (a === b) {
        console.log("Most excellent guesswork. I shall grant you 3 wishes. ")
@@ -30,6 +30,10 @@ while (count <= 5) {
 
     count++
 
+}
+
+if (count > 2) {
+    console.log("Unfortunately for you, no wishes will be granted today.");
 }
 
 
